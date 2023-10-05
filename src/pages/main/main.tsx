@@ -23,7 +23,7 @@ const Main = () => {
   };
   useEffect(() => {
     getPosts();
-  }, []);
+  });
   return (
     <div>
       {postsList?.map((post) => (
